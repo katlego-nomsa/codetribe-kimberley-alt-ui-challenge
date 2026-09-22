@@ -1,0 +1,101 @@
+:root {
+  /* Colors — sampled from the design */
+  --color-bg-sky: #a9d3da;
+  --color-bg-sky-deep: #8bc0cb;
+  --color-bg-cream: #f7f5ef;
+  --color-navy: #1c2b3a;
+  --color-navy-soft: #2a3d4f;
+  --color-teal-chair: #5c7f8b;
+  --color-text-dark: #1c2b3a;
+  --color-text-muted: #5b6b76;
+  --color-text-on-dark: #f4f1e9;
+  --color-white: #ffffff;
+  --color-border: rgba(28, 43, 58, 0.1);
+
+  /* Typography */
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-script: "Sacramento", cursive;
+  --font-body: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  /* Layout */
+  --max-width: 1400px;
+  --radius-md: 8px;
+  --radius-lg: 28px;
+  --transition-fast: 0.2s ease;
+  --transition-med: 0.35s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-text-dark);
+  background: #dcecef;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+.site-shell {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.site-card {
+  background: var(--color-bg-cream);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: 0 30px 60px -20px rgba(15, 30, 41, 0.35);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+@media (max-width: 900px) {
+  .container { padding: 0 32px; }
+}
+
+@media (max-width: 560px) {
+  .container { padding: 0 20px; }
+  .site-shell { padding: 0; }
+  .site-card { border-radius: 0; }
+}
