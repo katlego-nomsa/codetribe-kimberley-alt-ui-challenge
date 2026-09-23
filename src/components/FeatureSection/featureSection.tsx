@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 import Button from "../button/button";
 import { ArrowRightIcon } from "../icons/icons";
-import "./featureSection.css";
+import "./featuresection.css";
 
 interface FeatureSectionProps {
   eyebrow: string;

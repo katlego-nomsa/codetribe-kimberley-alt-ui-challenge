@@ -1,6 +1,6 @@
 import Navbar from "./components/navbar/navbar";
 import Hero from "./components/hero/hero";
-import FeatureSection from "./components/featureSection/featureSection";
+import FeatureSection from "./components/featuresection/featuresection";
 import Banner from "./components/banner/banner";
 import Footer from "./components/footer/footer";
 import { PlayIcon } from "./components/icons/icons";
