@@ -82,3 +82,9 @@
   background: #e8f3f6;
   color: #0f2a3d;
 }
+@media (max-width: 600px) {
+  .banner__strip-img:nth-child(3),
+  .banner__strip-img:nth-child(4) {
+    display: none;
+  }
+}
