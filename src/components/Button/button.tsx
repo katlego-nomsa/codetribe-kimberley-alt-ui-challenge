@@ -7,7 +7,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   children: ReactNode;
   variant?: ButtonVariant;
   icon?: ReactNode;
- 
+}
 const Button = ({
   children,
   variant = "primary",

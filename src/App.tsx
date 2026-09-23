@@ -1,7 +1,7 @@
 import Navbar from "./components/navbar/navbar";
 import Hero from "./components/hero/hero";
 import FeatureSection from "./components/featureSection/featureSection";
-import Banner from "./components/Banner/banner";
+import Banner from "./components/banner/banner";
 import Footer from "./components/footer/footer";
 import { PlayIcon } from "./components/icons/icons";
 import "./index.css";

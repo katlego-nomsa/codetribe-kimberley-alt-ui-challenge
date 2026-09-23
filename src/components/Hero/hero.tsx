@@ -1,5 +1,5 @@
 import Button from "../button/button";
-import { ArrowRightIcon } from "../icons/Icons";
+import { ArrowRightIcon } from "../icons/icons";
 import "./hero.css";
 
 const Hero = () => {

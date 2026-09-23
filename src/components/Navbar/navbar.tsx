@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Button from "../button/button";
-import { BagIcon, ChevronDownIcon, HeartIcon, SearchIcon } from "../icons/Icons";
+import { BagIcon, ChevronDownIcon, HeartIcon, SearchIcon } from "../icons/icons";
 import "./navbar.css";
 
 interface NavLinkItem {

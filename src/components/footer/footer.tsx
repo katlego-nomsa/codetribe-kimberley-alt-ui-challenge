@@ -7,7 +7,7 @@ import {
   PinterestIcon,
   TwitterIcon,
   YoutubeIcon,
-} from "../icons/Icons";
+} from "../icons/icons";
 import "./footer.css";
 
 const quickLinks = ["Home", "Shop", "About", "Contact"];
