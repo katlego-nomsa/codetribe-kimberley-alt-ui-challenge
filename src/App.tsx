@@ -5,7 +5,10 @@ import Banner from "./components/Banner/banner";
 import Footer from "./components/footer/footer";
 import { PlayIcon } from "./components/Icons/Icons";
 import "./index.css";
-
+/**
+ 
+this is the main App component that serves as the entry point for the application. It renders the overall layout of the website, including the navigation bar, hero section, feature sections, banner, and footer. The component uses various child components to structure the content and provide a cohesive user experience.
+ */
 function App() {
   return (
     <div className="site-shell">
