@@ -1,5 +1,5 @@
 import { useState, type FormEvent } from "react";
-import Button from "../Button/button";
+import Button from "../button/button";
 import {
   ArrowRightIcon,
   FacebookIcon,
@@ -7,7 +7,7 @@ import {
   PinterestIcon,
   TwitterIcon,
   YoutubeIcon,
-} from "../Icons/Icons";
+} from "../icons/Icons";
 import "./footer.css";
 
 const quickLinks = ["Home", "Shop", "About", "Contact"];

@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
-import Button from "../Button/button";
-import { ArrowRightIcon } from "../Icons/Icons";
+import Button from "../button/button";
+import { ArrowRightIcon } from "../icons/icons";
 import "./featureSection.css";
 
 interface FeatureSectionProps {
